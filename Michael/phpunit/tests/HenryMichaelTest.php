@@ -31,6 +31,6 @@ class HenryMichaelTest extends TestCase //Naming is very important Test at the e
         $obj = new HenryMichael();
         $input = [3, 4, 5];
         $output = $obj->avg($input);
-        $this->assertEquals(4, $output, "It should be 3.5");
+        $this->assertEquals(4, $output, "It should be 4");
     }
 }
